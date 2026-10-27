@@ -279,7 +279,7 @@ class AdminLogin {
             String username = usernameField.getText();
             String password = new String(passwordField.getPassword());
 
-            if (username.equals("") && password.equals("")) {
+            if (username.equals("admin") && password.equals("admin1234")) {
                 loginSuccess[0] = true;
                 loginFrame.dispose();
             } else {
